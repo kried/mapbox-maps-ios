@@ -20,8 +20,8 @@ let package = Package(
             targets: ["MapboxMaps"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/mapbox/mapbox-common-ios.git", exact: commonVersion),
-        .package(url: "https://github.com/mapbox/mapbox-core-maps-ios.git", exact: coreVersion),
+        .package(url: "https://github.com/kried/mapbox-common-ios.git", revision: "df75e5eec9c60db7980da7379dd20a25bca2a315"),
+        .package(url: "https://github.com/kried/mapbox-core-maps-ios.git", revision: "898e6accd746347643edcaf203b9892b94839b5e"),
         .package(url: "https://github.com/mapbox/turf-swift.git", exact: "2.7.0"),
     ],
     targets: [
